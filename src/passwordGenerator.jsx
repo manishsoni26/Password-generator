@@ -36,9 +36,9 @@ function PasswordGenerator() {
    }
 
     return (
-        <div className="bg-slate-900 w-full h-screen flex flex-col justify-center items-center text-blue-800 "
+        <div className="bg-contain lg:bg-cover w-full h-screen flex flex-col justify-center items-center text-blue-800 "
         style={{backgroundImage: `url(https://img.freepik.com/free-photo/online-security-dark-background-3d-illustration_1419-2804.jpg?t=st=1736880759~exp=1736884359~hmac=54f4e4785480015994d15ef1296b31b8b86567ce02a7cef63a4f134b3bebe7ca&w=1380)`}} >
-            <div className="bg-slate-300 w-1/2 h-auto rounded-lg  p-3  shadow-rose-100">
+            <div className="bg-slate-300 w-full md:w-3/4 lg:w-1/2 h-auto rounded-lg  p-3  shadow-rose-100">
                 <h1 className="text-blue-800 block text-3xl font-bold mb-7 text-center ">Password Generator</h1>
                 <div className="flex">
                     <input ref={passwordRef} type="text" value={password} placeholder="Password" className="px-2 py-1 
